@@ -227,6 +227,13 @@ def main():
             - Organized Excel output
             """
         )
+        
+        # Add TIC Club attribution
+        st.markdown("---")
+        st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
+        st.markdown("### Powered by TIC Club")
+        st.markdown("© 2023 TIC Club. All rights reserved.")
+        st.markdown("</div>", unsafe_allow_html=True)
     
     # File uploader
     st.markdown("<div class='upload-section'>", unsafe_allow_html=True)
@@ -314,6 +321,13 @@ def main():
         # Preview the data
         st.markdown("<h3 class='sub-header'>👁️ Data Preview</h3>", unsafe_allow_html=True)
         st.dataframe(st.session_state['extracted_data'].head(5), use_container_width=True)
+    
+    # Add footer with TIC Club attribution
+    st.markdown("---")
+    st.markdown("<div style='text-align: center; margin-top: 2rem; padding: 1rem; background-color: #f0f2f6; border-radius: 0.5rem;'>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 1.2rem; font-weight: bold; margin-bottom: 0.5rem;'>Powered by TIC Club</p>", unsafe_allow_html=True)
+    st.markdown("<p>© 2025 TIC Club. All rights reserved.</p>", unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
