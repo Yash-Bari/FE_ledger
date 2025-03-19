@@ -49,4 +49,10 @@ streamlit run appv3.py
 If you encounter any issues:
 - Check the logs folder for detailed error logs
 - Make sure the PDF file is properly formatted
-- Verify that all dependencies are installed correctly 
+- Verify that all dependencies are installed correctly
+
+## Credits
+
+Powered by TIC Club
+
+© 2023 TIC Club. All rights reserved. 
