@@ -55,4 +55,4 @@ If you encounter any issues:
 
 Powered by TIC Club
 
-© 2023 TIC Club. All rights reserved. 
+© 2025 TIC Club. All rights reserved. 
